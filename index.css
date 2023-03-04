@@ -1,0 +1,23 @@
+h1 {
+    font-family: 'Tilt Prism', cursive;
+    background-color: transparent;
+}
+
+form, option {
+    text-align: center;
+}
+
+img {
+    margin: 1%;
+}
+
+
+option {
+    text-align: center;
+}
+
+#uniler {
+    text-align: center;
+    position: relative;
+    top: -90px;
+}

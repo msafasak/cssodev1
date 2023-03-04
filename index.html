@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>ünisözlük</h1>
+    </header>
+<br>
+    <article id="uniler"> 
+        <img src="img/arı.png" alt="" width="50" height="50">
+        <img src="img/odtu.png" alt="" width="50" height="50">
+        <img src="img/bgz.png" alt="" height="50" width="50">
+        <img src="img/ankaraüni.png" alt="" width="50" height="50">
+        <img src="img/hacettepe.png" alt="" width="50" height="50">
+        <img src="img/bilkent.png.crdownload" alt="" height="50" width="50"><img src="img/Istanbul_Universitesi.png" alt="" width="50" height="50">
+        <img src="img/2560px-Koç_University_logo.svg.png" alt="" width="50" height="50">
+        <img src="img/ege.png" alt="" height="50" width="50"><img src="img/Yıldız_Technical_University_Logo.png" alt="" width="50" height="50">
+        <img src="img/Sabancı_University_logo.svg.png" alt="" width="50" height="50">
+    </article>
+    
+
+    <form action="action_page.php">
+        <h1>Kayıt</h1>
+          <p>Aşağıdaki bilgileri hemen doldur!</p>
+          <hr>
+
+        <div class="custom-select" style="width:200px;">
+            <select>
+              <option value="0">Okulunu Seç:</option>
+              <option value="1">İstanbul Teknik Üniversitesi</option>
+              <option value="2">Hacettepe Üniversitesi</option>
+              <option value="3">Orta Doğu Teknik Üniversitesi	</option>
+              <option value="4">İstanbul Üniversitesi	</option>
+              <option value="5">Koç Üniversitesi	</option>
+              <option value="6">Ankara Üniversitesi	</option>
+              <option value="7">Boğaziçi Üniversitesi	</option>
+              <option value="8">Ege Üniversitesi</option>
+              <option value="9">İhsan Doğramacı Bilkent Üniversitesi	</option>
+              <option value="10">Yıldız Teknik Üniversitesi</option>
+              <option value="11">Sabancı Üniversitesi</option>
+              <option value="12">Diğer..</option>
+            </select>
+          </div>
+        <br>
+
+
+        <div class="container">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="(Okula ait email olmalı)" name="email" id="email" required>
+      
+          <label for="psw"><b>Parola</b></label>
+          <input type="password" placeholder="Şifreni belirle" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Tekrar parola</b></label>
+          <input type="password" placeholder="Parolanı tekrar gir" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>Bir hesap oluşturarak <a href="#">şartlarımızı ve gizliliğimizi </a>kabul etmiş olursunuz.</p>
+          <button type="submit" class="registerbtn">Kayıt</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Zaten hesabın var mı? <a href="#">Seni böyle alalım</a>.</p>
+        </div>
+      </form>
+
+</body>
+</html>
